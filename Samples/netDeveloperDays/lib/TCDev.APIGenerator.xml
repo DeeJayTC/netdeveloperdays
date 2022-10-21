@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TCDev.APIGenerator</name>
+    </assembly>
+    <members>
+        <member name="M:TCDev.APIGenerator.GenericController`2.Query">
+            <summary>
+                Returns a list of <see cref="!:T" /> entries
+            </summary>
+            <returns cref="T:System.Collections.Generic.List`1"></returns>
+        </member>
+        <member name="T:TCDev.Controllers.GenericControllerRouteConvention">
+            <summary>
+               Applies route conventions to allow routes for auto generated controllers
+               One of the main pieces to make the magic work.
+            </summary>
+        </member>
+        <member name="M:TCDev.GenericTypeControllerFeatureProvider.#ctor(System.Collections.Generic.List{System.Type},System.Type)">
+            <summary>
+               Initiate the Controller generator
+            </summary>
+            <param name="types">Names of assemblies to search for classes</param>
+            <param name="controllerType">Type of controller (normal / Odata) to use</param>
+        </member>
+    </members>
+</doc>

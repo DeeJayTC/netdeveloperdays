@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DeepL.net" Version="1.5.0" />
+    <PackageReference Include="Microsoft.AspNetCore.OData" Version="8.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="TCDev.APIGenerator.Data.SQL" Version="0.7.1-RC1" />
+    <PackageReference Include="TCDev.APIGenerator.RabbitMQ" Version="0.7.1-RC1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\github\deejaytc\net-dynamic-api\src\TCDev.APIGenerator\TCDev.APIGenerator.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="TCDev.APIGenerator">
+      <HintPath>lib\TCDev.APIGenerator.dll</HintPath>
+    </Reference>
+    <Reference Include="TCDev.APIGenerator.Data">
+      <HintPath>lib\TCDev.APIGenerator.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="TCDev.APIGenerator.Data.SQL">
+      <HintPath>lib\TCDev.APIGenerator.Data.SQL.dll</HintPath>
+    </Reference>
+    <Reference Include="TCDev.APIGenerator.OData">
+      <HintPath>lib\TCDev.APIGenerator.OData.dll</HintPath>
+    </Reference>
+    <Reference Include="TCDev.APIGenerator.RabbitMQ">
+      <HintPath>lib\TCDev.APIGenerator.RabbitMQ.dll</HintPath>
+    </Reference>
+    <Reference Include="TCDev.APIGenerator.Schema">
+      <HintPath>lib\TCDev.APIGenerator.Schema.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
+
+</Project>

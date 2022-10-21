@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "netDeveloperDays", "netDeveloperDays.csproj", "{4DFB8B1C-3842-42BD-BC78-45400227043B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		DebugWithSampleApp|Any CPU = DebugWithSampleApp|Any CPU
+		Release|Any CPU = Release|Any CPU
+		SampleAppJson|Any CPU = SampleAppJson|Any CPU
+		SampleAppNuget|Any CPU = SampleAppNuget|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DFB8B1C-3842-42BD-BC78-45400227043B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DFB8B1C-3842-42BD-BC78-45400227043B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DFB8B1C-3842-42BD-BC78-45400227043B}.DebugWithSampleApp|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DFB8B1C-3842-42BD-BC78-45400227043B}.DebugWithSampleApp|Any CPU.Build.0 = Debug|Any CPU
+		{4DFB8B1C-3842-42BD-BC78-45400227043B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DFB8B1C-3842-42BD-BC78-45400227043B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DFB8B1C-3842-42BD-BC78-45400227043B}.SampleAppJson|Any CPU.ActiveCfg = Release|Any CPU
+		{4DFB8B1C-3842-42BD-BC78-45400227043B}.SampleAppJson|Any CPU.Build.0 = Release|Any CPU
+		{4DFB8B1C-3842-42BD-BC78-45400227043B}.SampleAppNuget|Any CPU.ActiveCfg = Release|Any CPU
+		{4DFB8B1C-3842-42BD-BC78-45400227043B}.SampleAppNuget|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3EEDD834-B140-4BAE-B264-F82BC0691756}
+	EndGlobalSection
+EndGlobal
